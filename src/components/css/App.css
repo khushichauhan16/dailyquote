@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,500');
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: baseline;
+}
+#footer{
+  position: relative;
+  margin-left: 2rem;
+  margin-bottom:2rem;
+  color: white;
+  text-align: center;
+}
+#wrapper{
+  background-color: #333;
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+#quote-box {
+  transform: translate(10%,10%);
+  border-radius: 3px;
+  position: fixed;
+  margin-right:100px;
+  width: 450px;
+  padding: 40px 60px;
+  display: table;
+  background-color: #fff;
+  #quote-text {
+    i {
+      font-size: 1.5em;
+      margin-right: 0.4em;
+    }
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 1000;
+    font-size: 2em;
+  }
+  #quote-author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+  }
+}
+#buttons
+{
+    width:100%;
+    text-align: center;
+    margin-top: 2rem;
+}
+.inner.button
+{
+    display: inline-block;
+}
+#tweet-quote{padding:5px 20px; 
+  margin-right: 12rem;
+	background: #333;; 
+	border:0 none;
+	cursor:pointer;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	color: #fff;}
+  #new-quote{padding:5px 15px; 
+    margin-left: 5rem;
+    background: #333;; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: #fff;}
